@@ -1,0 +1,21 @@
+{
+  "name": "@akashic/eslint-config",
+  "version": "0.1.0",
+  "description": "akashic-gamesリポジトリで共通的に利用するeslintのプリセットです。",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashic-games/eslint-config.git"
+  },
+  "author": "DWANGO Co., Ltd.",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "publishConfig": {
+    "@akashic:registry": "https://registry.npmjs.org/"
+  }
+}
