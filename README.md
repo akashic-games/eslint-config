@@ -1,5 +1,6 @@
 # eslint-config
 akashic-games リポジトリで共通的に利用する eslint プリセットです。
+使用側は TypeScript が必要となります。
 
 ## 使い方
 ### インストール
