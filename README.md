@@ -24,6 +24,7 @@ package.json の devDependencies に下記が必要です。
 
 ### 実行方法
 tsconfig.eslint.json を配置します。
+
 tsconfig.eslint.json
 ```json
 {
@@ -32,6 +33,7 @@ tsconfig.eslint.json
 }
 ```
 
+実行
 ```sh
 "eslint -c .eslintrc src/**/*.ts --fix
 ```
