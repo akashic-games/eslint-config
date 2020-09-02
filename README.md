@@ -5,25 +5,19 @@ akashic-games リポジトリで共通的に利用する eslint プリセット�
 ## 使い方
 ### インストール
 package.json の devDependencies に下記が必要です。
-```json
-"devDependencies": {
-    "@akashic/eslint-config": "0.1.0",
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
-    "esint": "^6.8.0",
-    "esint-plugin-import": "^2.20.2"
-}
+```sh
+npm install --save-dev @akashic/eslint-config @typescript-eslint/eslint-plugin esint esint-plugin-import
 ```
 
 ### 設定ファイルの書き方
+プロジェクトのルートディレクトリに `.eslintrc` と `tsconfig.eslint.json` を配置します。
+
 `.eslintrc` に以下のように記載します。
 ```json
 {
     "extends": "@akashic/eslint-config"
 }
 ```
-
-### 実行方法
-tsconfig.eslint.json を配置します。
 
 tsconfig.eslint.json
 ```json
@@ -33,7 +27,7 @@ tsconfig.eslint.json
 }
 ```
 
-実行
+### 実行方法
 ```sh
 "eslint -c .eslintrc src/**/*.ts --fix
 ```
