@@ -14,7 +14,7 @@ module.exports = {
 	],
 	"rules": {
 		"@typescript-eslint/naming-convention": [
-			 "error",
+			"error",
 			{
 				"selector": "variable",
 				"format": ["camelCase", "UPPER_CASE"],
