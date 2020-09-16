@@ -10,20 +10,16 @@ npm install --save-dev @akashic/eslint-config @typescript-eslint/eslint-plugin e
 ```
 
 ### 設定ファイルの書き方
-プロジェクトのルートディレクトリに `.eslintrc` と `tsconfig.eslint.json` を配置します。
+プロジェクトのルートディレクトリに `.eslintrc` を配置します。
 
 `.eslintrc` に以下のように記載します。
 ```json
 {
-    "extends": "@akashic/eslint-config"
-}
-```
-
-tsconfig.eslint.json
-```json
-{
-    "extends": "./tsconfig.json",
-    "exclude": []
+    "extends": "@akashic/eslint-config",
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "sourceType": "module"
+    }
 }
 ```
 

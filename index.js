@@ -4,16 +4,26 @@ module.exports = {
 		"es6": true
 	},
 	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"project": "tsconfig.eslint.json",
-		"sourceType": "module"
-	},
 	"plugins": [
 		"@typescript-eslint",
 		"import"
 	],
 	"rules": {
-		"@typescript-eslint/class-name-casing": "error",
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{
+				"selector": "variable",
+				"format": ["camelCase", "UPPER_CASE"],
+				"filter": {
+					"regex": "^_",
+					"match": false
+				}
+			},
+			{
+				"selector": "typeLike",
+				"format": ["PascalCase"]
+			}
+		],
 		"@typescript-eslint/indent": [
 			"error",
 			"tab",
@@ -149,6 +159,7 @@ module.exports = {
 		"comma-spacing": "error",
 		"brace-style": "error",
 		"no-underscore-dangle": "off",
+		"no-unused-vars": "off",
 		"no-unused-expressions": "error",
 		"no-unused-labels": "error",
 		"radix": "error",
