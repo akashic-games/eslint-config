@@ -4,10 +4,6 @@ module.exports = {
 		"es6": true
 	},
 	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"project": "tsconfig.eslint.json",
-		"sourceType": "module"
-	},
 	"plugins": [
 		"@typescript-eslint",
 		"import"
@@ -24,8 +20,8 @@ module.exports = {
 				}
 			},
 			{
-				"selector": 'typeLike',
-				"format": ['PascalCase']
+				"selector": "typeLike",
+				"format": ["PascalCase"]
 			}
 		],
 		"@typescript-eslint/indent": [

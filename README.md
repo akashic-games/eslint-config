@@ -15,15 +15,11 @@ npm install --save-dev @akashic/eslint-config @typescript-eslint/eslint-plugin e
 `.eslintrc` に以下のように記載します。
 ```json
 {
-    "extends": "@akashic/eslint-config"
-}
-```
-
-tsconfig.eslint.json
-```json
-{
-    "extends": "./tsconfig.json",
-    "exclude": []
+    "extends": "@akashic/eslint-config",
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "sourceType": "module"
+    }
 }
 ```
 
