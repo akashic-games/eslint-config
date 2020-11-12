@@ -1,12 +1,15 @@
 module.exports = {
 	"env": {
 		"browser": true,
-		"es6": true
+		"es6": true,
+		"jest": true,
+		"jasmine": true
 	},
 	"parser": "@typescript-eslint/parser",
 	"plugins": [
 		"@typescript-eslint",
-		"import"
+		"import",
+		"jest"
 	],
 	"rules": {
 		"@typescript-eslint/naming-convention": [

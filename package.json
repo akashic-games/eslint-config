@@ -1,6 +1,6 @@
 {
   "name": "@akashic/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "akashic-gamesリポジトリで共通的に利用するeslintのプリセットです。",
   "main": "index.js",
   "repository": {
@@ -13,14 +13,15 @@
     "index.js"
   ],
   "dependencies": {
-    "@typescript-eslint/parser": "^3.10.0",
-    "eslint": "^7.9.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.10.0",
-    "eslint": "^7.9.0",
-    "eslint-plugin-import": "^2.22.0"
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0"
   },
   "publishConfig": {
     "@akashic:registry": "https://registry.npmjs.org/"
