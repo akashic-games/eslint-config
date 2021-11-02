@@ -25,7 +25,7 @@ npm install --save-dev @akashic/eslint-config @typescript-eslint/eslint-plugin e
 
 ### 実行方法
 ```sh
-"eslint -c .eslintrc.js src/**/*.ts --fix"
+eslint -c .eslintrc.js src/**/*.ts --fix
 ```
 
 ## ライセンス
