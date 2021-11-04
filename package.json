@@ -1,6 +1,6 @@
 {
   "name": "@akashic/eslint-config",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "akashic-gamesリポジトリで共通的に利用するeslintのプリセットです。",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.1.3
+## 1.0.0
 * eslint 関連のパッケージを最新版(eslint v8)に更新
 * lint のテストを追加
 
