@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.0
+* eslint 関連のパッケージを最新版(eslint v8)に更新
+* lint のテストを追加
+
 ## 0.1.2
 * eslint関連のパッケージを最新版に更新
 * 新たに eslint-plugin-jest に依存

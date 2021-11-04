@@ -165,6 +165,7 @@ module.exports = {
 		"no-unused-vars": "off",
 		"no-unused-expressions": "error",
 		"no-unused-labels": "error",
+		"no-var": "error",
 		"radix": "error",
 		"spaced-comment": ["error", "always", { "markers": ["/"] }],
 		"keyword-spacing": ["error"],
