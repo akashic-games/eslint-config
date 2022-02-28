@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## 1.1.0
-* consistent-type-imports, prefer-const をルールに追加
+* @typescript-eslint/consistent-type-imports, prefer-const をルールに追加
 
 ## 1.0.0
 * eslint 関連のパッケージを最新版(eslint v8)に更新

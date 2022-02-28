@@ -1,3 +1,4 @@
+import type { TestConfig } from "./TestConfig";
 
 // naming-convention
 // 変数のcamelCase UpperCase での宣言, 接頭 `_` の変数のエラー除外
@@ -6,6 +7,9 @@ const UPPER_CASE = "";
 let camelCase: number;
 const isTest = true;
 const _snake_case = ""; // 変数のスネークケースはエラーとなるが 接頭に `_` があるため除外される
+const _config: TestConfig = {
+	type: "foo"
+};
 
 // type, Enum, interface class の PascalCase での宣言
 type TypeTest = "";
