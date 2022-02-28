@@ -107,6 +107,7 @@ module.exports = {
 			"args": "all",
 			"argsIgnorePattern": "^_"
 		}],
+		"@typescript-eslint/consistent-type-imports": "error",
 		"camelcase": "off",
 		"curly": "off",
 		"dot-notation": "error",
@@ -166,6 +167,7 @@ module.exports = {
 		"no-unused-expressions": "error",
 		"no-unused-labels": "error",
 		"no-var": "error",
+		"prefer-const": "error",
 		"radix": "error",
 		"spaced-comment": ["error", "always", { "markers": ["/"] }],
 		"keyword-spacing": ["error"],
