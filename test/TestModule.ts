@@ -1,5 +1,5 @@
 // import ルールのテスト用
-export interface TestConfig {
+export interface TestModule {
 	type: "foo" | "hoge";
 }
 
