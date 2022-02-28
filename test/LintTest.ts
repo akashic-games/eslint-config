@@ -1,11 +1,15 @@
+import type { TestModule } from "./TestModule";
 
 // naming-convention
 // 変数のcamelCase UpperCase での宣言, 接頭 `_` の変数のエラー除外
 /* eslint-disable @typescript-eslint/no-unused-vars */ // 宣言のみのため unused-vars を無効
 const UPPER_CASE = "";
 let camelCase: number;
-let isTest = true;
+const isTest = true;
 const _snake_case = ""; // 変数のスネークケースはエラーとなるが 接頭に `_` があるため除外される
+const _module: TestModule = {
+	type: "foo"
+};
 
 // type, Enum, interface class の PascalCase での宣言
 type TypeTest = "";
