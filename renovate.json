@@ -1,5 +1,27 @@
 {
   "extends": [
     "config:base"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": [
+    "every weekend"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "separateMinorPatch": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "groupName": "minor dependencies"
+    },
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "groupName": "patch dependencies"
+    }
   ]
 }
