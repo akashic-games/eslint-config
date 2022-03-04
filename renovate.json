@@ -1,15 +1,12 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    "schedule:weekends",
+    ":label(dependencies)",
+    ":separatePatchReleases"
   ],
-  "timezone": "Asia/Tokyo",
-  "schedule": [
-    "every weekend"
-  ],
-  "labels": [
-    "dependencies"
-  ],
-  "separateMinorPatch": true,
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "matchUpdateTypes": [
