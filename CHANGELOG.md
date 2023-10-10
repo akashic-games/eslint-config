@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## unreleased changes
+* @typescript-eslint/parser を 6 系に更新
+* @typescript-eslint/eslint-plugin を 6 系に更新
+
 ## 1.1.1
 * eslint 関連のパッケージを最新版に更新(TypeScript@4.8対応)
 
