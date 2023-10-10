@@ -4,7 +4,7 @@ import type { TestModule } from "./TestModule";
 // 変数のcamelCase UpperCase での宣言, 接頭 `_` の変数のエラー除外
 /* eslint-disable @typescript-eslint/no-unused-vars */ // 宣言のみのため unused-vars を無効
 const UPPER_CASE = "";
-let camelCase: number;
+let camelCase: number = 0;
 const isTest = true;
 const _snake_case = ""; // 変数のスネークケースはエラーとなるが 接頭に `_` があるため除外される
 const _module: TestModule = {
@@ -63,7 +63,7 @@ class OrderTest {
 		OrderTest.BAZ++;
 	}
 	constructor(arg?: string) {
-		this.foo = arg;
+		this.foo = arg ?? "";
 	}
 
 	// no-unused-vars: 引数の接頭が `_` の場合、未使用でもエラーとしない
