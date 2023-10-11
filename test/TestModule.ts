@@ -2,4 +2,3 @@
 export interface TestModule {
 	type: "foo" | "hoge";
 }
-
