@@ -11,6 +11,9 @@ module.exports = {
 		"import",
 		"jest"
 	],
+	"parserOptions": {
+		project: './tsconfig.json',
+	},
 	"rules": {
 		"@typescript-eslint/naming-convention": [
 			"error",
@@ -108,6 +111,7 @@ module.exports = {
 			"argsIgnorePattern": "^_"
 		}],
 		"@typescript-eslint/consistent-type-imports": "error",
+		"@typescript-eslint/no-floating-promises": "error",
 		"camelcase": "off",
 		"curly": "off",
 		"dot-notation": "error",
