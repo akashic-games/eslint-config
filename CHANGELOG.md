@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2.1.0
+* @typescript-eslint/no-floating-promises をルールに追加
+
 ## 2.0.0
 * @typescript-eslint/parser を 6 系に更新
 * @typescript-eslint/eslint-plugin を 6 系に更新
