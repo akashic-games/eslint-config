@@ -11,9 +11,6 @@ module.exports = {
 		"import",
 		"jest"
 	],
-	"parserOptions": {
-		project: './tsconfig.json',
-	},
 	"rules": {
 		"@typescript-eslint/naming-convention": [
 			"error",

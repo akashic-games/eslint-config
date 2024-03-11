@@ -4,7 +4,7 @@
   "description": "akashic-gamesリポジトリで共通的に利用するeslintのプリセットです。",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js \"test/*.ts\""
+    "test": "eslint -c .eslintrc \"test/*.ts\""
   },
   "repository": {
     "type": "git",
