@@ -82,3 +82,10 @@ const test = new OrderTest();
 // dot-notation: ブラケット記法(obj["prop1"]) はエラーとしドット記法とする
 const obj = { "prop1": "value1" };
 test.hogeFunc(obj.prop1);
+
+// @typescript-eslint/no-floating-promises: Promise 関数の await 呼び出しを必須とする
+async function floatingPromiseTest(): Promise<void> {
+	// do nothing
+}
+
+await floatingPromiseTest();

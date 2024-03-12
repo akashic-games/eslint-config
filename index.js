@@ -108,6 +108,7 @@ module.exports = {
 			"argsIgnorePattern": "^_"
 		}],
 		"@typescript-eslint/consistent-type-imports": "error",
+		"@typescript-eslint/no-floating-promises": "error",
 		"camelcase": "off",
 		"curly": "off",
 		"dot-notation": "error",
