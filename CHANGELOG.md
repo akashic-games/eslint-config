@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.0.0
+* eslint 関連のパッケージを最新版(eslint v9)に更新
+
 ## 2.1.0
 * @typescript-eslint/no-floating-promises をルールに追加
 
