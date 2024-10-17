@@ -6,16 +6,8 @@ akashic-games リポジトリで共通的に利用する eslint プリセット�
 ### インストール
 package.json の devDependencies に下記が必要です。
 ```sh
-npm install --save-dev eslint globals @akashic/eslint-config
+npm install --save-dev @akashic/eslint-config
 ```
-
-ルール追加/上書き等で必要に応じて下記をインストールしてください。
-
-- @stylistic/eslint-plugin-ts
-- @typescript-eslint/eslint-plugin
-- @typescript-eslint/parser
-- eslint-plugin-jest
-- eslint-plugin-import
 
 ### 設定ファイルの書き方
 プロジェクトのルートディレクトリに `eslint.config.js` を配置します。
