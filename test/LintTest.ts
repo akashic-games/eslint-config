@@ -68,7 +68,11 @@ class OrderTest {
 
 	// no-unused-vars: 引数の接頭が `_` の場合、未使用でもエラーとしない
 	hogeFunc(_unuseArg?: any): void {
-		this.bar();
+		try {
+			this.bar();
+		} catch (_err) {
+			// catch ブロックで何もしない場合、引数は先頭に `_` つければエラーとならない
+		}
 	}
 	private bar(): void {
 		// typedef:  interface, type のプロパティ メンバ変数、関数の引数に型は必要だが、
