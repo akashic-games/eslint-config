@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.0.1
+* eslint を peerDependencies に追加
+
 ## 3.0.0
 * eslint 関連のパッケージを最新版(eslint v9)に更新
 
