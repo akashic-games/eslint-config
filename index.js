@@ -87,7 +87,7 @@ module.exports = [
 			}],
 			"@typescript-eslint/no-empty-function": "error",
 			"@typescript-eslint/parameter-properties": "error",
-			"@typescript-eslint/no-var-requires": "error",
+			"@typescript-eslint/no-require-imports": "error",
 			"@typescript-eslint/typedef": ["error", {
 				propertyDeclaration: true,
 				memberVariableDeclaration: true,

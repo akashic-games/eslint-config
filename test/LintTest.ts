@@ -1,8 +1,11 @@
 import type { TestModule } from "./TestModule";
 
+/* eslint-disable @typescript-eslint/no-unused-vars */ // 宣言のみのため unused-vars を無効
+// require 利用のエラー。disalbe コメントで抑止
+import _requireTest = require("./TestModule"); // eslint-disable-line @typescript-eslint/no-require-imports
+
 // naming-convention
 // 変数のcamelCase UpperCase での宣言, 接頭 `_` の変数のエラー除外
-/* eslint-disable @typescript-eslint/no-unused-vars */ // 宣言のみのため unused-vars を無効
 const UPPER_CASE = "";
 let camelCase: number = 0;
 const isTest = true;
