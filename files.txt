@@ -1,4 +1,0 @@
-./index.js
-./eslint.config.js
-./README.md
-./package.json
