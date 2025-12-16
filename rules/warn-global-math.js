@@ -34,7 +34,7 @@ module.exports = {
       recommended: false,
     },
     messages: {
-      restrictedMethod: "Note that using 'Math.{{ method }}()' may result in different values ​in multiplay environments."
+      restrictedMethod: "Note that using 'Math.{{ method }}()' may result in different values in multiplay environments."
     },
   },
 
