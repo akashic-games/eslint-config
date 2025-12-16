@@ -96,3 +96,31 @@ async function floatingPromiseTest(): Promise<void> {
 }
 
 await floatingPromiseTest();
+
+// Math 関数の使用で警告。下記制御コメントを外すと警告となる
+/* eslint-disable akashic/warn-global-math */
+Math.acos(1);
+Math.acosh(2);
+Math.asin(3);
+Math.asinh(4);
+Math.atan(5);
+Math.atanh(6);
+Math.atan2(7, 7);
+Math.cbrt(8);
+Math.cos(9);
+Math.cosh(10);
+Math.exp(11);
+Math.expm1(12);
+Math.hypot(13);
+Math.log(14);
+Math.log1p(15);
+Math.log10(16);
+Math.log2(17);
+Math.pow(18, 2);
+Math.sin(19);
+Math.sinh(20);
+Math.sqrt(21);
+Math.tan(22);
+Math.tanh(23);
+/* eslint-enable akashic/warn-global-math */
+Math.round(24);
