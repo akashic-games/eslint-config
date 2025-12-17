@@ -34,7 +34,7 @@ module.exports = {
       recommended: false,
     },
     messages: {
-      restrictedMethod: "Note that using 'Math.{{ method }}()' may result in different values in multiplay environments."
+      restrictedMethod: "The value of 'Math.{{ method }}()' will vary slightly depending on the environment. Accumulating errors may cause synchronization issues in multiplayer games."
     },
   },
 
