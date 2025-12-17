@@ -4,7 +4,6 @@ const jest = require("eslint-plugin-jest");
 const globals = require("globals");
 const tsParser = require("@typescript-eslint/parser");
 const stylisticTs = require("@stylistic/eslint-plugin-ts");
-const warnGlobalMathRule = require("./rules/warn-global-math");
 
 module.exports = [
 	importPlugin.flatConfigs.recommended,
@@ -13,11 +12,6 @@ module.exports = [
 			"@typescript-eslint": typescriptEslint,
 			"@stylistic/ts": stylisticTs,
 			jest,
-			"akashic": { 
-				rules: {
-					"warn-global-math": warnGlobalMathRule
-				}
-			}
 		},
 
 		languageOptions: {
@@ -174,8 +168,7 @@ module.exports = [
 					caseInsensitive: true
 				}
 			}],
-			"import/no-unresolved": "off",
-			"akashic/warn-global-math": "warn"
+			"import/no-unresolved": "off"
 		}
 	}
 ];
