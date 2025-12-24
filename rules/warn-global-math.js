@@ -1,27 +1,28 @@
 
 // 警告する Math メソッドのリスト
+// コメントアウトしているものは g.Math のような代替手段がまだなく、利用頻度が高く lint 警告が煩わしいものを無効としている
 const WARN_FUNCTIONS = [
   "acos",
   "acosh",
   "asin",
   "asinh",
-  "atan",
+  // "atan",
   "atanh",
-  "atan2",
+  // "atan2",
   "cbrt",
   "cos",
   "cosh",
   "exp",
   "expm1",
   "hypot",
-  "log",
+  // "log",
   "log1p",
-  "log10",
-  "log2",
-  "pow",
+  // "log10",
+  // "log2",
+  // "pow",
   "sin",
   "sinh",
-  "sqrt",
+  // "sqrt",
   "tan",
   "tanh"
 ];
