@@ -1,6 +1,6 @@
 {
   "name": "@akashic/eslint-config",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "akashic-gamesリポジトリで共通的に利用するeslintのプリセットです。",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "@akashic:registry": "https://registry.npmjs.org/"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "rules/"
   ],
   "dependencies": {
     "@stylistic/eslint-plugin-ts": "^2.9.0",
