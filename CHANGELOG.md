@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.1.0
+* Math 関数を警告するカスタムルールを追加
+
 ## 3.0.2
 * @typescript-eslint/no-var-requires が deprecated のため削除し、@typescript-eslint/no-require-imports を追加。
 
